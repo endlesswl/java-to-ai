@@ -5,3 +5,8 @@ __pycache__/
 .idea/
 # 密钥文件
 .env
+
+# 数据库
+*.db
+*.sqlite3
+*.bin
