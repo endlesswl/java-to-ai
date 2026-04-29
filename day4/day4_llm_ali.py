@@ -1,7 +1,7 @@
 import requests
 
 # ------------ 填入你自己的阿里云百炼 Key ------------
-API_KEY = "sk-2feeb6647aa644b69cb8b2ae6c97f376"
+API_KEY = "youkey"
 URL = "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation"
 
 def ali_llm_chat(question):
