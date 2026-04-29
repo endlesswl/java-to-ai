@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+.venv/
+*.pyc
+.idea/
+# 密钥文件
+.env

@@ -1,7 +1,13 @@
 import requests
+from dotenv import load_dotenv  # 加载.env
+import os
 
+
+# 自动读取 .env 文件
+load_dotenv()
 # ------------ 填入你自己的阿里云百炼 Key ------------
-API_KEY = "youkey"
+# 从环境变量取key，代码里无明文！
+API_KEY = os.getenv("ALI_API_KEY")
 URL = "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation"
 
 def ali_llm_chat(question):
